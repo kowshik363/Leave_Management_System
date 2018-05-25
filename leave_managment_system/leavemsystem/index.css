@@ -1,0 +1,71 @@
+.option {
+  color: #6495ED;
+  
+  background: #CCC;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 90px;
+  margin-bottom:40px;
+  margin-top:220px;
+  margin-right:40px;
+  margin-left:580px;
+  line-height: 45px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+INPUT#loginadmin{
+  font-style: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: #DEB887;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#logintch{
+  border-color: #008B8B;
+  font-size: 15px;
+  font-style: bold;
+  border-radius: 10px;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#loginemp{
+  border-color: #8B008B;
+  font-size: 15px;
+  font-style: bold;
+  border-radius: 10px;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+.option:hover {
+  background: #333;
+  height: 200px;
+  width: 300px;
+}
+
+.option:hover #loginadmin{
+visibility: visible;
+}
+
+.option:hover #logintch{
+visibility: visible;
+}
+.option:hover #loginemp{
+visibility: visible;
+}
+
+
+#header{
+  text-align: center;
+  font-size: 30px;
+}

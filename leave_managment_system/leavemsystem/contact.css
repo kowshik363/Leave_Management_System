@@ -1,0 +1,40 @@
+#tablename{
+  text-align: center;
+  color: #008B8B;
+}
+
+#gmap{
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#gtext{
+  font-size: 25px;
+  color: #ADFF2F;
+}
+
+
+#table{
+  margin-left: 10%;
+  border-radius: 5px;
+  border-width: 5px;
+  background-color: #00FFFF;
+  border-color: #5F9EA0;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#td{
+  border: 1px solid #7FFFD4;
+  text-align: center;
+  padding: 8px;
+}
+#th{
+  border: 1px solid #7FFFD4;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background-color: #7FFFD4;
+}

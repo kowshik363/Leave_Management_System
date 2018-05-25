@@ -1,0 +1,66 @@
+
+
+.adbox {
+  
+  background: #CCC;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 45px;
+  margin-bottom:40px;
+  margin-top:220px;
+  margin-right:40px;
+  margin-left:580px;
+  line-height: 45px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+INPUT#Roll{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility:hidden;
+}
+
+INPUT#Password{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#adlogin{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+.adbox:hover {
+  background: #333;
+  height: 280px;
+  width: 300px;
+}
+
+.adbox:hover #Roll{
+visibility: visible;
+}
+
+.adbox:hover #Password{
+visibility: visible;
+}
+
+.adbox:hover #adlogin{
+visibility: visible;
+}
+
+SPAN#adforgot{
+  visibility: hidden;
+}
+
+.adbox:hover #adforgot{
+visibility: visible;
+}

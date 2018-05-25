@@ -1,0 +1,64 @@
+
+#td{
+  border: 1px solid #7FFFD4;
+  text-align: center;
+  padding: 8px;
+}
+#th{
+  border: 1px solid #7FFFD4;
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background-color: #7FFFD4;
+}
+
+
+
+#about{
+  margin-left: 4%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #F08080;
+  margin-top: 2%;
+  border-color: #008B8B;
+  font-family: arial, sans-serif;
+  background-color: #E0FFFF;
+  color: #20B2AA;
+  width: 90%;
+}
+
+#leavesys{
+  margin-top: 5%;
+  text-align: center;
+  color: #32CD32;
+  font-size: 25px;
+  font-family: arial, sans-serif;
+}
+
+#tableabout{
+  margin-left: 4%;
+  border-width: 5px;
+  margin-bottom: 2%;
+  background-color: #B0C4DE;
+  border-color: #8FBC8F;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.implementation{
+  margin-top: 5%;
+  border-color: #2f4f4f;
+  font-family: arial, sans-serif;
+  background-color: #E0FFFF;
+  color: #20B2AA;
+}
+
+#features{
+  text-align: center;
+  color: #32CD32;
+  font-size: 25px;
+  font-family: arial, sans-serif;
+}
+

@@ -1,0 +1,77 @@
+body{
+padding: 0;
+margin: 0;
+overflow-y: scroll;
+font-family: "Kozuka Gothic Pr6N B";
+font-style: bold;
+font-size: 20px;
+}
+
+#nav{
+	background-color: #222;
+}
+/*
+#nav_wrapper{
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+
+}*/
+#nav ul{
+	list-style-type: disc;
+	padding: 0;
+	margin: 0;
+	postition: relative;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+#nav ul li:hover{
+	background-color: #333;
+
+}
+
+#nav ul li a,visited{
+	color: black;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#nav ul li a:hover{
+  	color: #ccc;
+	text-decoration: none;
+	
+}
+#nav ul li:hover ul{
+  	display: block;	
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#menu li:nth-child(2) a{
+	margin-left: 300%;
+}
+
+
+
+#footer{
+	text-align: center;
+	background-color: #696969;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 0%;
+}
+
+
+#protab{
+	color: #8A2BE2 ;
+	border-width: 2px ;
+	border-color: #008B8B ;
+	margin-top: 5%;
+
+}

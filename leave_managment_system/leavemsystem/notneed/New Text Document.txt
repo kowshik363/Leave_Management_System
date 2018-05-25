@@ -1,0 +1,40 @@
+  <table id="allprof">
+                  <thead>
+                    <tr>
+                      <th>First Name</th>
+                      <th>First Name</th>
+                      <th>User ID</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Password</th>
+
+                    </tr>
+                  </thead>
+                      <tbody>
+                      <?php
+                        $dbhost = "localhost";
+                                $dbuser = "root";
+                                $dbpass = "";
+                                $dbname = "leave_management";
+                                mysql_connect($dbhost,$dbuser,$dbpass) or die('cannot connect to the server'); 
+                                mysql_select_db($dbname) or die('database selection problem');
+                      $sql="SELECT * FROM user_profile";
+                      $result_set=mysql_query($sql);
+                      while($row=mysql_fetch_array($result_set)){
+                      
+                        ?>
+
+                                        <tr >
+                                            <td><?php echo $row['firstname'] ?></td>
+                                            <td><?php echo $row['lastname'] ?></td>
+                                            <td><?php echo $row['userid'] ?></td>
+                                            <td><?php echo $row['username'] ?></td>
+                                            <td><?php echo $row['email'] ?></td>
+                                            <td><?php echo $row['password'] ?></td>
+                       
+                                        </tr>
+                                       <?php
+                    }
+                     ?>
+                                    </tbody>
+      </table>

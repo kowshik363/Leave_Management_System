@@ -1,0 +1,106 @@
+#caltxt{
+  margin-top: 5%;
+  font-size: 25px;
+  color: #FFA500;
+  text-align: center;
+}
+
+#inserttext{
+  margin-top: 17%;
+  font-size: 25px;
+  color: #6A5ACD;
+  text-align: center;
+}
+
+#file{
+  text-align: center;
+}
+
+#choose{
+  margin-left: 7%;
+  font-size: 20px;
+  color: #FF0000;
+}
+
+#post{
+  margin-left: -5%;
+  margin-bottom: 2%;
+  font-style: bold;
+  border-color: #ADFF2F;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  align: right;
+  height: 35px;
+  widthL: 30px;
+  color: #008000;
+}
+
+
+#wrtext{
+  margin-top: 7%;
+  font-size: 25px;
+  color: #20B2AA;
+  text-align: center;
+}
+
+#apptext{
+  text-align: center;
+}
+
+#txtapplication{
+  margin-left: 10%;
+  height: 600px;
+  width: 800px;
+  border-color: #663399;
+  border-width: 10px;
+}
+
+#wrpost{
+  margin-bottom: 2%;
+  font-style: bold;
+  border-color: #F08080;
+  border-width: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  align: right;
+  height: 35px;
+  widthL: 30px;
+  color: #4169E1;
+}
+
+.header{
+  text-align: center;
+  color: #0080FF;
+}
+
+.form_header{
+  text-align: center;
+  color: #58ACFA;
+}
+
+.form_area{
+  color: #0B3B39;
+  margin-left: 2%;
+}
+
+#applicant{
+  color: #0A1B2A;
+  text-align: right;
+  margin-right: 2%;
+}
+
+#leavetab{
+  border-width: 2px;
+  border-color: #0A2A1B;
+}
+
+#apply{
+  margin-left: 50%;
+  font-size: 25px;
+  border-color: #5FB404;
+  text-align: center;
+  color: #0B610B;
+  margin-bottom: 3%;
+  border-width: 3px;
+}

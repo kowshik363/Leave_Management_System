@@ -1,0 +1,125 @@
+body {
+  color: #fff;
+  
+}
+.signup {
+  color: #8FBC8F;
+  background: #CCC;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 45px;
+  margin-bottom:40px;
+  margin-top:220px;
+  margin-right:40px;
+  margin-left:580px;
+  line-height: 45px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+
+INPUT#FirstName{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility:hidden;
+}
+
+INPUT#LastName{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#IDno{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#UserName{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#Email{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#Pass{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#ConfirmPassword{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+
+INPUT#signingup{
+  font-style: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: #2F4F4F;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+
+.signup:hover {
+  background: #333;
+  height: 410px;
+  width: 300px;
+}
+
+.signup:hover #FirstName{
+visibility: visible;
+}
+
+.signup:hover #LastName{
+visibility: visible;
+}
+
+.signup:hover #IDno{
+visibility: visible;
+}
+
+
+.signup:hover #UserName{
+visibility: visible;
+}
+
+
+.signup:hover #Email{
+visibility: visible;
+}
+
+
+.signup:hover #Pass{
+visibility: visible;
+}
+
+.signup:hover #ConfirmPassword{
+visibility: visible;
+}
+
+.signup:hover #signingup{
+visibility: visible;
+}
+

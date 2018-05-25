@@ -1,0 +1,102 @@
+body {
+  color: #fff;
+  
+}
+.box {
+	color: #E9967A;
+  background: #CCC;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 45px;
+  margin-bottom:40px;
+  margin-top:220px;
+  margin-right:40px;
+  margin-left:580px;
+  line-height: 45px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+
+INPUT#Roll{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility:hidden;
+}
+
+INPUT#Password{
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+INPUT#login{
+  font-style: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: #556B2F;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+SPAN#forgot{
+  font-size: 14px;
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+BUTTON#register{
+  font-style: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: #B8860B;
+  height: 25px;
+  widthL: 30px;
+  visibility: hidden;
+}
+
+.box:hover {
+  background: #333;
+  height: 280px;
+  width: 300px;
+}
+
+.box:hover #Roll{
+visibility: visible;
+}
+
+.box:hover #Password{
+visibility: visible;
+}
+
+.box:hover #login{
+visibility: visible;
+}
+
+.box:hover #forgot{
+  color: #DC143C;
+visibility: visible;
+}
+
+.box:hover #register{
+visibility: visible;
+}
+
+BUTTON#forgot{
+  font-size: 14px;
+  border-radius: 5px;
+  height: 20px;
+  widthL: 30px;
+  visibility: hidden;
+}
+.box:hover #forgot{
+visibility: visible;
+}
